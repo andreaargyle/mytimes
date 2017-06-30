@@ -1,3 +1,13 @@
+/* Body */
+
+body {
+  margin: 0;
+}
+
+.container {
+  border: 1px dotted gray;
+}
+
 /* Header */
 
 header {
@@ -8,26 +18,27 @@ header {
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 5;
+  background-color: white;
 }
 
 .container,
-.left,
-.right {
+.logo,
+.navigation {
   display: flex;
   width: 100%;
 }
 
-.left {
+.logo {
   justify-content: flex-start;
   align-items: center;
   color: MediumAquamarine;
 }
 
-.left span {
+.logo span {
   padding: 20px;
 }
 
-.right {
+.navigation {
   float: right;
   justify-content: space-around;
 }
@@ -39,4 +50,29 @@ nav li {
 
 nav a {
   color: black;
+}
+
+/* Main */
+
+main {
+  position: relative;
+  top: 82px;
+}
+
+.column.large,
+.column.medium,
+.column.small {
+  display: flex;
+}
+
+.column.large {
+  flex: 3 630px;
+}
+
+.column.medium {
+  flex: 2 300px;
+}
+
+.column.small {
+  flex: 1 240px;
 }
