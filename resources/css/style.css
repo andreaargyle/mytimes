@@ -121,3 +121,26 @@ p {
   font-size: 17px;
   color: black;
 }
+
+/* News Bites */
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-bites.title {
+  margin: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
