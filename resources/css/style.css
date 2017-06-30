@@ -1,0 +1,42 @@
+/* Header */
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 5;
+}
+
+.container,
+.left,
+.right {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.left span {
+  padding: 20px;
+}
+
+.right {
+  float: right;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+nav a {
+  color: black;
+}
